@@ -1,5 +1,7 @@
 $(document).ready(function(){
   $("h1").click(function() {
-    $("img").toggle();
+    $("#toggle").toggle();
+    $("#fade-toggle").fadeToggle();
+    $("#slide-toggle").slideToggle();
   });
 });
