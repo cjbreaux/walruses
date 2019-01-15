@@ -16,4 +16,17 @@ $(document).ready(function(){
   $("#slide-toggle").click(function() {
     $("#slide-toggle").slideToggle();
   });
+
+  $(".instant p").click(function() {
+    $("#toggle").toggle();
+  });
+
+  $(".fading p").click(function() {
+    $("#fade-toggle").fadeToggle();
+  });
+
+  $(".slide p").click(function() {
+    $("#slide-toggle").slideToggle();
+  });
+
 });
