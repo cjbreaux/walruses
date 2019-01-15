@@ -1,3 +1,15 @@
 img {
   height: 400px;
+  cursor: pointer; 
+}
+
+.instant p, .fading p, .slide p {
+  margin-top: 3rem;
+  color: #1862db;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.instant p:hover, .fading p:hover, .slide p:hover {
+  text-decoration: underline;
 }
